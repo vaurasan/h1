@@ -12,3 +12,11 @@ Karvinen, T. 2006. Raportin kirjoittaminen. Luettavissa: https://terokarvinen.co
 # Free Software Foundation
 <br>
 - 
+
+
+
+
+
+
+
+GNU. 2024. What is Free Software?. Luettavissa: https://www.gnu.org/philosophy/free-sw.html. Luettu 22.8.2024
