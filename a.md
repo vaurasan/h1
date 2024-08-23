@@ -4,7 +4,7 @@ Tässä osiossa kerron Linuxin asentamisesta virtuaalikoneeseen. En ole aiemmin 
 <br>
 Oma kokoonpanoni on seuraavanlainen:<br>
 ![Prosessori](https://github.com/vaurasan/h1/blob/main/Prossu.jpg)<br>
-![Windows](https://github.com/vaurasan/h1/blob/main/Windows.jpg)<br><br>
+![Windows](https://github.com/vaurasan/h1/blob/main/Windows.jpg)(huom. kokeilin ensin Teron tapaa tuoda kuvia tänne, mutta kun se ei toiminut aloin oikomaan kuvakaappaustyökalulla ctrl+c, ctrl+v:tä hyväksi käyttäen, tällaiselle aloittelijalle huomattavasti nopeampi tapa, mutta toki hyvä olisi osata molemmat)<br><br>
 Tässä vaiheessa huomaan, että ainakaan minulla nämä kuvat eivät toimi vaikka pitäisi kaiken järjen mukaan. En kuitenkaan siihen tuhlaa enempiä aikoja vaan kirjoitan tietokoneeni specsit tähän tekstinä:(myöhemmin huomasin, että kaikki kuvat toimii, mutta jätän tekstit tähän kuitenkin varmuuden vuoksi)<br>
 
 Suoritin	AMD Ryzen 9 5900X 12-Core Processor 3.70 GHz<br>
