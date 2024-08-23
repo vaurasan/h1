@@ -93,4 +93,5 @@ CDImage.debian.org. Debian download. Luettavissa: https://cdimage.debian.org/deb
 Karvinen, T. 2021. Install Debian on Virtualbox - Updated 2023. Luettavissa: https://terokarvinen.com/2021/install-debian-on-virtualbox/. Luettu 23.8.2024<br>
 Karvinen, T. Linux Palvelimet 2024 alkusyksy. Luettavissa https://terokarvinen.com/linux-palvelimet/. Luettu 23.8.2024<br>
 stackoverflow. Shortcut to exit scale mode in VirtualBox. Luettavissa: https://stackoverflow.com/questions/10716899/shortcut-to-exit-scale-mode-in-virtualbox#10716934. Luettu 23.8.2024<br>
+Sysnettech. 2016-2024. How to Fix Missing Dependencies Python Core / win32api in VirtualBox. Luettavissa: https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/. Luettu 23.8.2024<br>
 VirtualBox. 2023. Download VirtualBox. Luettavissa: https://www.virtualbox.org/wiki/Downloads. Luettu 23.8.2024
