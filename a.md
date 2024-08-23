@@ -24,33 +24,33 @@ Aloitan lataamalla [debian-live-12.6.0-amd64-xfce.iso] tiedoston (https://cdimag
 ### Virtuaalikone
 
 Seuraavaksi lataan Virtualbox virtuaalikoneen osoitteesta: https://www.virtualbox.org/wiki/Downloads.<br>
-Alan asentaa virtuaalikonetta asennusohjelmalla, valittuani kohdekansion, asennusohjelma varoittaa, että nettiyhteys katkeaa hetkeksi joten tallennan tämän kirjoitelman varmuuden vuoksi.<br>
+Alan asentaa virtuaalikonetta asennusohjelmalla, valittuani kohdekansion, asennusohjelma varoittaa, että nettiyhteys katkeaa hetkeksi joten tallennan tämän kirjoitelman varmuuden vuoksi.<br><br>
 ![virtuaaliasennus1](https://github.com/user-attachments/assets/ac510f45-e562-40cb-ad25-af098883e1b4)<br><br>
 
 Varoituksesta huolimatta, pysyn rauhallisena ja jatkan asennusta.<br>
-Vaan enpä jatkakaan, kun seuraava herja ilmestyy ruudulle:<br>
+Vaan enpä jatkakaan, kun seuraava herja ilmestyy ruudulle:<br><br>
 ![image](https://github.com/user-attachments/assets/b00a48ba-f5b7-4e82-8b70-61d9a7e45162)<br><br>
 
 Pikainen Googlaus, tai pikemminkin Duckaus tuo minut tälle sivustolle: https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/<br>
 Ohjetta noudattaen, menen python.org/downloads sivulle, josta lataan uusimman Python version 3.12.5 ja suoritan asennustiedoston järjestelmänvalvojana.<br>
-Tämän jälkeen step 3:n mukaan avaan PowerShellin järjestelmänvalvojana ja kirjoitan komentoriville: py -m pip install pywin32.<br>
+Tämän jälkeen step 3:n mukaan avaan PowerShellin järjestelmänvalvojana ja kirjoitan komentoriville: py -m pip install pywin32.<br><br>
 Seuraavanlainen virhe tapahtuu: ![pywinerror](https://github.com/user-attachments/assets/83189454-fb08-4546-97e6-4eed0cfa7cdc)<br><br>
 
-Kokeilen poistaa ja uudelleenasentaa Pythonin koneeltani samaisella asennusohjelmalla, jonka juuri latasin. Nyt uudestaan PowerShelliin ja sama litania komentoriville, ja homma onnistui.<br>
+Kokeilen poistaa ja uudelleenasentaa Pythonin koneeltani samaisella asennusohjelmalla, jonka juuri latasin. Nyt uudestaan PowerShelliin ja sama litania komentoriville, ja homma onnistui.<br><br>
 ![image](https://github.com/user-attachments/assets/a48ed366-5d0e-41ce-86ef-de30cb69b10b)<br><br>
 
 Tässä vaiheessa vaaditaan tietokoneen uudelleenkäynnistys, joten teen sen.<br>
 Nyt takaisin PowerShelliin järjestelmänvalvojana ja komentoriville ohjeen mukaan: python.exe -m pip install --upgrade pip.<br>
-Tulee virheilmoitus:<br>
+Tulee virheilmoitus:<br><br>
 ![image](https://github.com/user-attachments/assets/86624cb7-33ff-4b7d-a2e7-1bbf380dc686)<br>
 Tästä huolimatta yritän nyt asentaa Virtualboxia ja hämmästyksekseni ei enää tule samaa herjaa mikä tuli aiemmin, asennus menee läpi muitta mutkitta.<br>
 
 Seuraavaksi virtuaalikoneen luontiin.<br>
 Teron ohjeiden mukaan ylävalikosta Machine - New, aukeaa luonti-ikkuna, valitaan Expert Mode ja aletaan syöttämään haluttuja tietoja:<br>
-Jostain syystä en pysty laittamaan täppää kohtaan Skip Unattended Installation, pakko mennä näillä korteilla mitkä on jaettu.<br>
+Jostain syystä en pysty laittamaan täppää kohtaan Skip Unattended Installation, pakko mennä näillä korteilla mitkä on jaettu.<br><br>
 ![image](https://github.com/user-attachments/assets/b45aa78e-ce67-4bf9-9b92-b52b9c407e46)<br><br>
 
-Ohjeen mukaan Hardwareen Base Memory 4000MB. Sitten Create Virtual Hard Disk Now ja laitetaan Size 60GB. Valitaan VDI (VirtualBox Disk Image) ja painetaan Finish. Nyt näkyy vasemmalla luotu virtuaalikone offline-tilassa.<br>
+Ohjeen mukaan Hardwareen Base Memory 4000MB. Sitten Create Virtual Hard Disk Now ja laitetaan Size 60GB. Valitaan VDI (VirtualBox Disk Image) ja painetaan Finish. Nyt näkyy vasemmalla luotu virtuaalikone offline-tilassa.<br><br>
 ![image](https://github.com/user-attachments/assets/83ad21c7-b954-4a9a-bfa7-3fe352ff58fd)
 <br>
 
@@ -59,10 +59,10 @@ Ohjeen mukaan Hardwareen Base Memory 4000MB. Sitten Create Virtual Hard Disk Now
 - Valitaan virtuaalikone aktiiviseksi vasemmalta ja mennään Settings.<br>
 - Storage välilehti auki, Controller: IDE-kohdasta valitaan CDROM Empty.<br>
 - Optical Drive kohtaan haetaan CD-levyn kuvaketta klikkaamalla Virtual Optical Disk File ja haetaan aiemmin ladattu debian-live-12.6.0-amd64-xfce Linuxin  asennusohjelma ja painetaan Choose. Nyt meillä on virtuaalikone ja virtuaalinen CD syötetty koneeseen sisälle.<br>
-- Tuplaklikataan virtuaalikonetta, nyt virtuaalikoneeseen muuttui tila Offlinesta -> Running, sekä Boot menu aukesi erilliseen ikkunaan. Tämä näyttää hieman erilaiselta kuin ohjeessa, mutta näillä mennään.<br>
+- Tuplaklikataan virtuaalikonetta, nyt virtuaalikoneeseen muuttui tila Offlinesta -> Running, sekä Boot menu aukesi erilliseen ikkunaan. Tämä näyttää hieman erilaiselta kuin ohjeessa, mutta näillä mennään.<br><br>
 ![image](https://github.com/user-attachments/assets/01ac0958-66eb-48ef-8f8c-04ca35c37ede)<br>
 - Live Systemin kohdalla painoin Enteriä ja odottelin hetken. Nyt avautui Linux työpöytä asentamatta Linuxia, varsin merkillistä.<br>
-- Testataan toimivuus, Applications menusta Web Browser ja kokeillaan nettisivua, näyttää toimivan:<br>
+- Testataan toimivuus, Applications menusta Web Browser ja kokeillaan nettisivua, näyttää toimivan:<br><br>
 ![image](https://github.com/user-attachments/assets/8c091907-bdf3-4837-a290-5d7b23535927)<br>
 - Homma pelittää, joten aletaan asentamaan Linuxia, valitaan Install Debian työpöydältä.<br>
 - Asennuskieleksi American English<br>
@@ -79,7 +79,7 @@ Muutaman minuutin odottelun jälkeen asennus valmistui.<br>
 Pääsin kirjautumisikkunaan, syötin valitsemani käyttäjätunnuksen ja salasanan ja nyt olen työpöydällä. Web-selaimella taas testi, kaikki näyttää toimivan, olen siis onnistuneesti asentanut Debianin, JES!<br><br>
 
 Nyt mennään ohjeiden mukaan superkäyttäjän oikeuksin päivittelemään Debian, Applications: Terminal Emulatorista komennolla: sudo apt-get update<br>
-Seuraavaksi päivitetään ohjelmat komennolla: sudo apt-get -y dist-upgrade<br>
+Seuraavaksi päivitetään ohjelmat komennolla: sudo apt-get -y dist-upgrade<br><br>
 Sitten asennetaan palomuuri: sudo apt-get -y install ufw, ja laitetaan se päälle: sudo ufw enable ![image](https://github.com/user-attachments/assets/96868646-0b4c-42ed-9c3d-95414bb7af2f)
 <br><br>
 Bootataan virtuaalikone, Log Out -> Restart<br>
