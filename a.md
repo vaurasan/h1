@@ -47,10 +47,13 @@ Teron ohjeiden mukaan ylävalikosta Machine - New, aukeaa luonti-ikkuna, valitaa
 Jostain syystä en pysty laittamaan täppää kohtaan Skip Unattended Installation, pakko mennä näillä korteilla mitkä on jaettu.<br>
 ![image](https://github.com/user-attachments/assets/b45aa78e-ce67-4bf9-9b92-b52b9c407e46)<br><br>
 
-Ohjeen mukaan Hardwareen Base Memory 4000MB. Sitten Create Virtual Hard Disk Now ja laitetaan Size 60GB. Valitaan VDI (VirtualBox Disk Image) ja painetaan Finish.<br><br>
+Ohjeen mukaan Hardwareen Base Memory 4000MB. Sitten Create Virtual Hard Disk Now ja laitetaan Size 60GB. Valitaan VDI (VirtualBox Disk Image) ja painetaan Finish. Nyt näkyy vasemmalla luotu virtuaalikone offline-tilassa.<br>![image](https://github.com/user-attachments/assets/83ad21c7-b954-4a9a-bfa7-3fe352ff58fd)
+<br>
 
 ## Linuxin asentaminen juuri luotuun virtuaalikoneeseen
 
-
+- Valitaan virtuaalikone aktiiviseksi vasemmalta ja mennään Settings.<br>
+- Storage välilehti auki, Controller: IDE-kohdasta valitaan CDROM Empty.<br>
+- Optical Drive kohtaan haetaan CD-levyn kuvaketta klikkaamalla Virtual Optical Disk File ja haetaan aiemmin ladattu debian-live-12.6.0-amd64-xfce Linuxin  asennusohjelma ja painetaan Choose. Nyt meillä on virtuaalikone ja virtuaalinen CD syötetty koneeseen sisälle.<br>
 
 
