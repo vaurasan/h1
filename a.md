@@ -79,8 +79,14 @@ Seuraavaksi päivitetään ohjelmat komennolla: sudo apt-get -y dist-upgrade<br>
 Sitten asennetaan palomuuri: sudo apt-get -y install ufw, ja laitetaan se päälle: sudo ufw enable ![image](https://github.com/user-attachments/assets/96868646-0b4c-42ed-9c3d-95414bb7af2f)
 <br><br>
 Bootataan virtuaalikone, Log Out -> Restart<br>
-Homma sitä myöten valmis.<br><br>
+Homma sitä myöten valmis.<br>
+Note to self: epähuomiossa menin Scaled modeen mikä näytti aivan järkyttävältä, tästä pääsin eroon painamalla oikea Ctrl + c.
+<br>
 
 ## Lähteet
 
-
+CDImage.debian.org. Debian download. Luettavissa: https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/. Luettu 23.8.2024<br>
+Karvinen, T. 2021. Install Debian on Virtualbox - Updated 2023. Luettavissa: https://terokarvinen.com/2021/install-debian-on-virtualbox/. Luettu 23.8.2024<br>
+Karvinen, T. Linux Palvelimet 2024 alkusyksy. Luettavissa https://terokarvinen.com/linux-palvelimet/. Luettu 23.8.2024<br>
+stackoverflow. Shortcut to exit scale mode in VirtualBox. Luettavissa: https://stackoverflow.com/questions/10716899/shortcut-to-exit-scale-mode-in-virtualbox#10716934. Luettu 23.8.2024<br>
+VirtualBox. 2023. Download VirtualBox. Luettavissa: https://www.virtualbox.org/wiki/Downloads. Luettu 23.8.2024
