@@ -1,8 +1,8 @@
 # Linuxin asentaminen virtuaalikoneeseen
 
-Tässä osiossa kerron Linuxin asentamisesta virtuaalikoneeseen. En ole aiemmin tehnyt vastaavaa, joten käyn hyvin tarkasti läpi Tero Karvisen ohjeet joka vaiheessa.
+Tässä osiossa kerron Linuxin asentamisesta virtuaalikoneeseen. En ole aiemmin tehnyt vastaavaa, paitsi asentanut Nindento 64 emulaattorin Windows PC:lle, mutta siinä ei ollut mielestäni mitään ihmeellistä, joten käyn hyvin tarkasti läpi Tero Karvisen ohjeita joka vaiheessa.
 <br>
-Oma kokoonpanoni on seuraavanlainen:<br>
+Oma host kokoonpanoni on seuraavanlainen:<br>
 ![Prosessori](https://github.com/vaurasan/h1/blob/main/Prossu.jpg)<br>
 ![Windows](https://github.com/vaurasan/h1/blob/main/Windows.jpg)<br>
 (huom. kokeilin ensin Teron tapaa tuoda kuvia tänne, mutta kun se ei toiminut aloin oikomaan kuvakaappaustyökalulla ctrl+c, ctrl+v:tä hyväksi käyttäen, tällaiselle aloittelijalle huomattavasti nopeampi tapa, mutta toki hyvä olisi osata molemmat)<br><br>
