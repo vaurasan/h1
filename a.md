@@ -3,8 +3,8 @@
 <br>
 Tässä osiossa kerron Linuxin asentamisesta virtuaalikoneeseen. En ole aiemmin tehnyt vastaavaa, joten käyn hyvin tarkasti läpi Tero Karvisen ohjeet joka vaiheessa.
 <br>
-Oma kokoonpanoni on seuraavanlainen:
-
+Oma kokoonpanoni on seuraavanlainen:<br>
+![Add file: Upload](Prossu.jpg)
 
 ## 
 <br>
