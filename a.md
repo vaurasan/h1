@@ -24,12 +24,17 @@ Aloitan lataamalla [debian-live-12.6.0-amd64-xfce.iso] tidoston (https://cdimage
 
 Seuraavaksi lataan Virtualbox virtuaalikoneen osoitteesta: https://www.virtualbox.org/wiki/Downloads.<br>
 Alan asentaa virtuaalikonetta asennusohjelmalla, valittuani kohdekansion, asennusohjelma varoittaa, että nettiyhteys katkeaa hetkeksi joten tallennan tämän kirjoitelman varmuuden vuoksi.<br>
-![virtuaaliasennus1](https://github.com/user-attachments/assets/ac510f45-e562-40cb-ad25-af098883e1b4)<br>
+![virtuaaliasennus1](https://github.com/user-attachments/assets/ac510f45-e562-40cb-ad25-af098883e1b4)<br><br>
+
 Varoituksesta huolimatta, pysyn rauhallisena ja jatkan asennusta.<br>
-Vaan enpä jatkakaan, kun seuraava herja ilmestyy ruudulle: ![image](https://github.com/user-attachments/assets/b00a48ba-f5b7-4e82-8b70-61d9a7e45162)<br>
+Vaan enpä jatkakaan, kun seuraava herja ilmestyy ruudulle: ![image](https://github.com/user-attachments/assets/b00a48ba-f5b7-4e82-8b70-61d9a7e45162)<br><br>
+
 Pikainen Googlaus, tai pikemminkin Duckaus tuo minut tälle sivustolle: https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/<br>
 Ohjetta noudattaen, menen python.org/downloads sivulle, josta lataan uusimman Python version 3.12.5 ja suoritan asennustiedoston järjestelmänvalvojana.<br>
+Tämän jälkeen step 3:n mukaan avaan PowerShellin järjestelmänvalvojana ja kirjoitan komentoriville py -m pip install pywin32.<br>
+Seuraavanlainen virhe tapahtuu: ![pywinerror](https://github.com/user-attachments/assets/83189454-fb08-4546-97e6-4eed0cfa7cdc)<br><br>
 
+Kokeilen poistaa ja uudelleenasentaa Pythonin koneeltani samaisella asennusohjelmalla, jonka juuri latasin. Nyt uudestaan PowerShelliin ja sama litania komentoriville, ja homma onnistui ![image](https://github.com/user-attachments/assets/a48ed366-5d0e-41ce-86ef-de30cb69b10b)<br><br>
 
 
 
