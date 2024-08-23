@@ -4,8 +4,8 @@
 Tässä osiossa kerron Linuxin asentamisesta virtuaalikoneeseen. En ole aiemmin tehnyt vastaavaa, joten käyn hyvin tarkasti läpi Tero Karvisen ohjeet joka vaiheessa.
 <br>
 Oma kokoonpanoni on seuraavanlainen:<br>
-![](https://github.com/vaurasan/h1/blob/main/Prossu.jpg)<br>
-![](https://github.com/vaurasan/h1/blob/main/Windows.jpg)<br><br>
+![Prosessori](https://github.com/vaurasan/h1/blob/main/Prossu.jpg)<br>
+![Windows](https://github.com/vaurasan/h1/blob/main/Windows.jpg)<br><br>
 Tässä vaiheessa huomaan, että ainakaan minulla nämä kuvat eivät toimi vaikka pitäisi kaiken järjen mukaan. En kuitenkaan siihen tuhlaa enempiä aikoja vaan kirjoitan tietokoneeni specsit tähän tekstinä:<br>
 
 Suoritin	AMD Ryzen 9 5900X 12-Core Processor 3.70 GHz<br>
