@@ -47,5 +47,10 @@ Teron ohjeiden mukaan ylävalikosta Machine - New, aukeaa luonti-ikkuna, valitaa
 Jostain syystä en pysty laittamaan täppää kohtaan Skip Unattended Installation, pakko mennä näillä korteilla mitkä on jaettu.<br>
 ![image](https://github.com/user-attachments/assets/b45aa78e-ce67-4bf9-9b92-b52b9c407e46)<br><br>
 
-Ohjeen mukaan Hardwareen Base Memory 4000MB. Sitten Create Virtual Hard Disk Now ja laitetaan Size 60GB. Valitaan VDI (VirtualBox Disk Image) ja painetaan Finish.<br>
+Ohjeen mukaan Hardwareen Base Memory 4000MB. Sitten Create Virtual Hard Disk Now ja laitetaan Size 60GB. Valitaan VDI (VirtualBox Disk Image) ja painetaan Finish.<br><br>
+
+## Linuxin asentaminen juuri luotuun virtuaalikoneeseen
+
+
+
 
