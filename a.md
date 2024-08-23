@@ -76,5 +76,6 @@ Pääsin kirjautumisikkunaan, syötin valitsemani käyttäjätunnuksen ja salasa
 
 Nyt mennään ohjeiden mukaan superkäyttäjän oikeuksin päivittelemään Debian, Applications: Terminal Emulatorista komennolla: sudo apt-get update<br>
 Seuraavaksi päivitetään ohjelmat komennolla: sudo apt-get -y dist-upgrade<br>
-
+Sitten asennetaan palomuuri: sudo apt-get -y install ufw, ja laitetaan se päälle: sudo ufw enable ![image](https://github.com/user-attachments/assets/96868646-0b4c-42ed-9c3d-95414bb7af2f)
+<br>
 
