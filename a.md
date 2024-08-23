@@ -50,7 +50,7 @@ Jostain syystä en pysty laittamaan täppää kohtaan Skip Unattended Installati
 Ohjeen mukaan Hardwareen Base Memory 4000MB. Sitten Create Virtual Hard Disk Now ja laitetaan Size 60GB. Valitaan VDI (VirtualBox Disk Image) ja painetaan Finish. Nyt näkyy vasemmalla luotu virtuaalikone offline-tilassa.<br>![image](https://github.com/user-attachments/assets/83ad21c7-b954-4a9a-bfa7-3fe352ff58fd)
 <br>
 
-## Linuxin asentaminen juuri luotuun virtuaalikoneeseen
+### Linuxin asentaminen juuri luotuun virtuaalikoneeseen
 
 - Valitaan virtuaalikone aktiiviseksi vasemmalta ja mennään Settings.<br>
 - Storage välilehti auki, Controller: IDE-kohdasta valitaan CDROM Empty.<br>
@@ -70,12 +70,17 @@ Ohjeen mukaan Hardwareen Base Memory 4000MB. Sitten Create Virtual Hard Disk Now
 <br>
 Muutaman minuutin odottelun jälkeen asennus valmistui.<br>
 
-## Asennuksen jälkeen
+### Asennuksen jälkeen
 
 Pääsin kirjautumisikkunaan, syötin valitsemani käyttäjätunnuksen ja salasanan ja nyt olen työpöydällä. Web-selaimella taas testi, kaikki näyttää toimivan, olen siis onnistuneesti asentanut Debianin, JES!<br><br>
 
 Nyt mennään ohjeiden mukaan superkäyttäjän oikeuksin päivittelemään Debian, Applications: Terminal Emulatorista komennolla: sudo apt-get update<br>
 Seuraavaksi päivitetään ohjelmat komennolla: sudo apt-get -y dist-upgrade<br>
 Sitten asennetaan palomuuri: sudo apt-get -y install ufw, ja laitetaan se päälle: sudo ufw enable ![image](https://github.com/user-attachments/assets/96868646-0b4c-42ed-9c3d-95414bb7af2f)
-<br>
+<br><br>
+Bootataan virtuaalikone, Log Out -> Restart<br>
+Homma sitä myöten valmis.<br><br>
+
+## Lähteet
+
 
