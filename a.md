@@ -28,7 +28,7 @@ Alan asentaa virtuaalikonetta asennusohjelmalla, valittuani kohdekansion, asennu
 Varoituksesta huolimatta, pysyn rauhallisena ja jatkan asennusta.<br>
 Vaan enpä jatkakaan, kun seuraava herja ilmestyy ruudulle: ![image](https://github.com/user-attachments/assets/b00a48ba-f5b7-4e82-8b70-61d9a7e45162)<br>
 Pikainen Googlaus, tai pikemminkin Duckaus tuo minut tälle sivustolle: https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/<br>
-Ohjeen mukaan menen python.org/downloads sivulle, josta lataan uusimman Python version 3.12.5.<br>
+Ohjetta noudattaen, menen python.org/downloads sivulle, josta lataan uusimman Python version 3.12.5 ja suoritan asennustiedoston järjestelmänvalvojana.<br>
 
 
 
