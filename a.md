@@ -36,5 +36,8 @@ Seuraavanlainen virhe tapahtuu: ![pywinerror](https://github.com/user-attachment
 
 Kokeilen poistaa ja uudelleenasentaa Pythonin koneeltani samaisella asennusohjelmalla, jonka juuri latasin. Nyt uudestaan PowerShelliin ja sama litania komentoriville, ja homma onnistui ![image](https://github.com/user-attachments/assets/a48ed366-5d0e-41ce-86ef-de30cb69b10b)<br><br>
 
-Tässä vaiheessa vaaditaan tietokoneen uudelleenkäynnistys, joten teen sen.
+Tässä vaiheessa vaaditaan tietokoneen uudelleenkäynnistys, joten teen sen.<br>
+Nyt takaisin PowerShelliin järjestelmänvalvojana ja komentoriville ohjeen mukaan: python.exe -m pip install --upgrade pip.<br>
+Tulee virheilmoitus: ![image](https://github.com/user-attachments/assets/86624cb7-33ff-4b7d-a2e7-1bbf380dc686)<br>
+Tästä huolimatta yritän nyt asentaa Virtualboxia ja hämmästyksekseni ei enää tule samaa herjaa mikä tuli aiemmin, asennus menee läpi muitta mutkitta.
 
