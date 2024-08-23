@@ -74,6 +74,7 @@ Muutaman minuutin odottelun jälkeen asennus valmistui.<br>
 
 Pääsin kirjautumisikkunaan, syötin valitsemani käyttäjätunnuksen ja salasanan ja nyt olen työpöydällä. Web-selaimella taas testi, kaikki näyttää toimivan, olen siis onnistuneesti asentanut Debianin, JES!<br><br>
 
-Nyt mennään ohjeiden mukaan superkäyttäjän oikeuksin päivittelemään kaikki Applications: Terminal Emulatorista komennolla: sudo apt-get update.<br>
+Nyt mennään ohjeiden mukaan superkäyttäjän oikeuksin päivittelemään Debian, Applications: Terminal Emulatorista komennolla: sudo apt-get update<br>
+Seuraavaksi päivitetään ohjelmat komennolla: sudo apt-get -y dist-upgrade<br>
 
 
