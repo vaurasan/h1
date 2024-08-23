@@ -85,7 +85,11 @@ Sitten asennetaan palomuuri: sudo apt-get -y install ufw, ja laitetaan se pääl
 Bootataan virtuaalikone, Log Out -> Restart<br>
 Homma sitä myöten valmis.<br>
 Note to self: epähuomiossa menin Scaled modeen mikä näytti aivan järkyttävältä, tästä pääsin eroon painamalla oikea Ctrl + c.
-<br>
+<br><br>
+Vielä lopuksi haluan Debianin toimimaan järkevämmällä resoluutiolla, joten menen Teron ohjeiden mukaan laittamaan asiat kuntoon VirtualBoxin lisäosalla. Syötetään kuvitteellinen CD levy asemaan menemällä Devices -> Insert Guest Additions CD image -> VBox_GAs... -> avatan Terminal Emulator ja mennään media/*käyttäjä*/VBox -> komento: sudo bash VBoxLinuxAdditions.run<br>
+Tämän jälkeen ruudulla tapahtuu asioita, bootataan virtuaalikone. Nyt on parempi resoluutio ja kaikki pelittää ja pystyn Devices välilehdeltä ottamaan Shared Clipboardista bidirectional asetuksen käyttöön ja voin copy pastettaa hostin ja virtuaalikoneen välillä tekstiä!<br><br>
+
+![valmis](https://github.com/user-attachments/assets/7709d1c2-5047-4535-9244-9e36059b0def)
 
 ## Lähteet
 
