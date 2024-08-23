@@ -67,7 +67,13 @@ Ohjeen mukaan Hardwareen Base Memory 4000MB. Sitten Create Virtual Hard Disk Now
 - Partitions välilehdeltä valitaan Erase Disk, jätetään tsekkaamatta Encrypt system koska kyseessä on viruaalikone, muuten ehdottomasti kannattava täppä. Boot loader location jätetään oletusarvoonsa eli "Master Boot Record...", muuten ei homma pelitä jostain syystä.<br>
 - Users välilehdelle oma nimi normaalisti, käyttäjätunnus käyttäjätunnus käyttäen ASCII kirjaimia ja aloitus pienellä kirjaimella, tietokoneen nimeksi jokin tunnistamaton ei oma nimi - tähä laitoin "taulu", seuraavaksi laitetaan vahva salasana salasanakenttään. Jätetään pois täppä kohdasta Log in automatically...<br>
 - Painetaan Next ja asennus alkaa.<br>
+<br>
+Muutaman minuutin odottelun jälkeen asennus valmistui.<br>
 
+## Asennuksen jälkeen
 
+Pääsin kirjautumisikkunaan, syötin valitsemani käyttäjätunnuksen ja salasanan ja nyt olen työpöydällä. Web-selaimella taas testi, kaikki näyttää toimivan, olen siis onnistuneesti asentanut Debianin, JES!<br><br>
+
+Nyt mennään ohjeiden mukaan superkäyttäjän oikeuksin päivittelemään kaikki Applications: Terminal Emulatorista komennolla: sudo apt-get update.<br>
 
 
