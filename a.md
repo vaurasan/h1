@@ -64,6 +64,7 @@ Ohjeen mukaan Hardwareen Base Memory 4000MB. Sitten Create Virtual Hard Disk Now
 - Live Systemin kohdalla painoin Enteriä ja odottelin hetken. Nyt avautui Linux työpöytä asentamatta Linuxia, varsin merkillistä.<br>
 - Testataan toimivuus, Applications menusta Web Browser ja kokeillaan nettisivua, näyttää toimivan:<br><br>
 ![image](https://github.com/user-attachments/assets/8c091907-bdf3-4837-a290-5d7b23535927)<br>
+Kuva: https://www.mtv.fi/<br>
 - Homma pelittää, joten aletaan asentamaan Linuxia, valitaan Install Debian työpöydältä.<br>
 - Asennuskieleksi American English<br>
 - Location Finland Helsinki<br>
