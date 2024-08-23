@@ -36,5 +36,5 @@ Seuraavanlainen virhe tapahtuu: ![pywinerror](https://github.com/user-attachment
 
 Kokeilen poistaa ja uudelleenasentaa Pythonin koneeltani samaisella asennusohjelmalla, jonka juuri latasin. Nyt uudestaan PowerShelliin ja sama litania komentoriville, ja homma onnistui ![image](https://github.com/user-attachments/assets/a48ed366-5d0e-41ce-86ef-de30cb69b10b)<br><br>
 
-
+Tässä vaiheessa vaaditaan tietokoneen uudelleenkäynnistys, joten teen sen.
 
