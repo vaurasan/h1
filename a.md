@@ -61,8 +61,13 @@ Ohjeen mukaan Hardwareen Base Memory 4000MB. Sitten Create Virtual Hard Disk Now
 - Testataan toimivuus, Applications menusta Web Browser ja kokeillaan nettisivua, näyttää toimivan:<br>
 ![image](https://github.com/user-attachments/assets/8c091907-bdf3-4837-a290-5d7b23535927)<br>
 - Homma pelittää, joten aletaan asentamaan Linuxia, valitaan Install Debian työpöydältä.<br>
-- Asennuskieleksi American English -> Location Helsinki -> Keyboard Model, Generic 105-key PC, Finnish Default ja testataan laatikossa näppäimistön toimivuus.<br>
+- Asennuskieleksi American English<br>
+- Location Finland Helsinki<br>
+- Keyboard Model, Generic 105-key PC, Finnish Default ja testataan laatikossa näppäimistön toimivuus.<br>
 - Partitions välilehdeltä valitaan Erase Disk, jätetään tsekkaamatta Encrypt system koska kyseessä on viruaalikone, muuten ehdottomasti kannattava täppä. Boot loader location jätetään oletusarvoonsa eli "Master Boot Record...", muuten ei homma pelitä jostain syystä.<br>
-- 
+- Users välilehdelle oma nimi normaalisti, käyttäjätunnus käyttäjätunnus käyttäen ASCII kirjaimia ja aloitus pienellä kirjaimella, tietokoneen nimeksi jokin tunnistamaton ei oma nimi - tähä laitoin "taulu", seuraavaksi laitetaan vahva salasana salasanakenttään. Jätetään pois täppä kohdasta Log in automatically...<br>
+- Painetaan Next ja asennus alkaa.<br>
+
+
 
 
