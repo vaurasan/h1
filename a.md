@@ -55,5 +55,14 @@ Ohjeen mukaan Hardwareen Base Memory 4000MB. Sitten Create Virtual Hard Disk Now
 - Valitaan virtuaalikone aktiiviseksi vasemmalta ja mennään Settings.<br>
 - Storage välilehti auki, Controller: IDE-kohdasta valitaan CDROM Empty.<br>
 - Optical Drive kohtaan haetaan CD-levyn kuvaketta klikkaamalla Virtual Optical Disk File ja haetaan aiemmin ladattu debian-live-12.6.0-amd64-xfce Linuxin  asennusohjelma ja painetaan Choose. Nyt meillä on virtuaalikone ja virtuaalinen CD syötetty koneeseen sisälle.<br>
+- Tuplaklikataan virtuaalikonetta, nyt virtuaalikoneeseen muuttui tila Offlinesta -> Running, sekä Boot menu aukesi erilliseen ikkunaan. Tämä näyttää hieman erilaiselta kuin ohjeessa, mutta näillä mennään.<br>
+![image](https://github.com/user-attachments/assets/01ac0958-66eb-48ef-8f8c-04ca35c37ede)<br>
+- Live Systemin kohdalla painoin Enteriä ja odottelin hetken. Nyt avautui Linux työpöytä asentamatta Linuxia, varsin merkillistä.<br>
+- Testataan toimivuus, Applications menusta Web Browser ja kokeillaan nettisivua, näyttää toimivan:<br>
+![image](https://github.com/user-attachments/assets/8c091907-bdf3-4837-a290-5d7b23535927)<br>
+- Homma pelittää, joten aletaan asentamaan Linuxia, valitaan Install Debian työpöydältä.<br>
+- Asennuskieleksi American English -> Location Helsinki -> Keyboard Model, Generic 105-key PC, Finnish Default ja testataan laatikossa näppäimistön toimivuus.<br>
+- Partitions välilehdeltä valitaan Erase Disk, jätetään tsekkaamatta Encrypt system koska kyseessä on viruaalikone, muuten ehdottomasti kannattava täppä. Boot loader location jätetään oletusarvoonsa eli "Master Boot Record...", muuten ei homma pelitä jostain syystä.<br>
+- 
 
 
