@@ -4,7 +4,8 @@ Tässä osiossa kerron Linuxin asentamisesta virtuaalikoneeseen. En ole aiemmin 
 <br>
 Oma kokoonpanoni on seuraavanlainen:<br>
 ![Prosessori](https://github.com/vaurasan/h1/blob/main/Prossu.jpg)<br>
-![Windows](https://github.com/vaurasan/h1/blob/main/Windows.jpg)(huom. kokeilin ensin Teron tapaa tuoda kuvia tänne, mutta kun se ei toiminut aloin oikomaan kuvakaappaustyökalulla ctrl+c, ctrl+v:tä hyväksi käyttäen, tällaiselle aloittelijalle huomattavasti nopeampi tapa, mutta toki hyvä olisi osata molemmat)<br><br>
+![Windows](https://github.com/vaurasan/h1/blob/main/Windows.jpg)<br>
+(huom. kokeilin ensin Teron tapaa tuoda kuvia tänne, mutta kun se ei toiminut aloin oikomaan kuvakaappaustyökalulla ctrl+c, ctrl+v:tä hyväksi käyttäen, tällaiselle aloittelijalle huomattavasti nopeampi tapa, mutta toki hyvä olisi osata molemmat)<br><br>
 Tässä vaiheessa huomaan, että ainakaan minulla nämä kuvat eivät toimi vaikka pitäisi kaiken järjen mukaan. En kuitenkaan siihen tuhlaa enempiä aikoja vaan kirjoitan tietokoneeni specsit tähän tekstinä:(myöhemmin huomasin, että kaikki kuvat toimii, mutta jätän tekstit tähän kuitenkin varmuuden vuoksi)<br>
 
 Suoritin	AMD Ryzen 9 5900X 12-Core Processor 3.70 GHz<br>
@@ -39,5 +40,12 @@ Kokeilen poistaa ja uudelleenasentaa Pythonin koneeltani samaisella asennusohjel
 Tässä vaiheessa vaaditaan tietokoneen uudelleenkäynnistys, joten teen sen.<br>
 Nyt takaisin PowerShelliin järjestelmänvalvojana ja komentoriville ohjeen mukaan: python.exe -m pip install --upgrade pip.<br>
 Tulee virheilmoitus: ![image](https://github.com/user-attachments/assets/86624cb7-33ff-4b7d-a2e7-1bbf380dc686)<br>
-Tästä huolimatta yritän nyt asentaa Virtualboxia ja hämmästyksekseni ei enää tule samaa herjaa mikä tuli aiemmin, asennus menee läpi muitta mutkitta.
+Tästä huolimatta yritän nyt asentaa Virtualboxia ja hämmästyksekseni ei enää tule samaa herjaa mikä tuli aiemmin, asennus menee läpi muitta mutkitta.<br>
+
+Seuraavaksi virtuaalikoneen luontiin.<br>
+Teron ohjeiden mukaan ylävalikosta Machine - New, aukeaa luonti-ikkuna, valitaan Expert Mode ja aletaan syöttämään haluttuja tietoja:<br>
+Jostain syystä en pysty laittamaan täppää kohtaan Skip Unattended Installation, pakko mennä näillä korteilla mitkä on jaettu.<br>
+![image](https://github.com/user-attachments/assets/b45aa78e-ce67-4bf9-9b92-b52b9c407e46)<br><br>
+
+Ohjeen mukaan Hardwareen Base Memory 4000MB. Sitten Create Virtual Hard Disk Now ja laitetaan Size 60GB. Valitaan VDI (VirtualBox Disk Image) ja painetaan Finish.<br>
 
