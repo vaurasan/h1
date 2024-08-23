@@ -26,6 +26,8 @@ Seuraavaksi lataan Virtualbox virtuaalikoneen osoitteesta: https://www.virtualbo
 Alan asentaa virtuaalikonetta asennusohjelmalla, valittuani kohdekansion, asennusohjelma varoittaa, että nettiyhteys katkeaa hetkeksi joten tallennan tämän kirjoitelman varmuuden vuoksi.<br>
 ![virtuaaliasennus1](https://github.com/user-attachments/assets/ac510f45-e562-40cb-ad25-af098883e1b4)<br>
 Varoituksesta huolimatta, pysyn rauhallisena ja jatkan asennusta.<br>
+Vaan enpä jatkakaan, kun seuraava herja ilmestyy ruudulle: ![image](https://github.com/user-attachments/assets/b00a48ba-f5b7-4e82-8b70-61d9a7e45162)<br>
+
 
 
 
