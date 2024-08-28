@@ -1,3 +1,6 @@
+Santeri Vauramo 2024<br><br>
+
+
 # Linuxin asentaminen virtuaalikoneeseen
 
 Tässä osiossa kerron Linuxin asentamisesta virtuaalikoneeseen. En ole aiemmin tehnyt vastaavaa, paitsi asentanut Nindento 64 emulaattorin Windows PC:lle, mutta siinä ei ollut mielestäni mitään ihmeellistä, joten käyn hyvin tarkasti läpi Tero Karvisen ohjeita joka vaiheessa.
